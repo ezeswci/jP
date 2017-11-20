@@ -57,7 +57,7 @@ function parseNetowrksSurveys(network_name,survey){
 }
 // answerExternalSurvey
 function answerExternalSurvey(name,network,link,chips){
-	$("body").append('<div class="navbar navbar-fixed-top nav-polls"><div class="web-poll"><div class="col-xs-2 nopadding"> <a class="btn sharp no-margin btn-danger btn-lg btn-block" href="#" role="button" onclick="closeExternalSurveyPanel(\''+network+'\');"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a> <!--a class="btn sharp no-margin btn-info btn-lg btn-block" href="#" role="button"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></a--> </div><div class="col-xs-10 poll-container text-color7  text-center" style="padding: 0px;"><iframe src="'+link+'" style="width: 100%;height: 100%;min-height: 100vh;"></iframe></div></div></div>').after(function() {
+	$("body").append('<div class="navbar navbar-fixed-top nav-polls"><div class="col-xs-2 nopadding"> <a class="btn sharp no-margin btn-danger btn-lg btn-block" href="#" role="button" onclick="closeExternalSurveyPanel(\''+network+'\');"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></a> <!--a class="btn sharp no-margin btn-info btn-lg btn-block" href="#" role="button"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></a--> </div><div class="col-xs-10 poll-container text-color7  text-center" style="padding: 0px;"><iframe src="'+link+'" style="width: 100%;height: 100%;min-height: 100vh;"></iframe></div></div>').after(function() {
             var left = $('.nav-polls').width();
 			 $(".nav-polls").css({left:left}).after(function() {
 				 $(".nav-polls").animate({"left":"0px"}, "slow");
