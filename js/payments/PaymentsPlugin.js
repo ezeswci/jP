@@ -333,8 +333,8 @@ function __PM_startTransaction() {
     default:
       avisoEmergenteJugaPlay("¡Ops!","<p class='trn'>Hay un error en los datos. Reinicia el juego y vuelve a intentar.</p>");
       break;
-      */
-  }
+
+  }  */
 
   var props = {
 		'{ACTION}':action,

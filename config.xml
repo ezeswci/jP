@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.JugaPlay"
-		android-versionCode="28994"
+		android-versionCode="2931"
         version   = "2.9.3">
     <name>JugaPlay</name>
 
@@ -33,26 +33,27 @@
     <preference name="android-minSdkVersion"      value="14" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
-	<!-- Record Audio -->
-	<!-- Fin Record Audio  <gap:plugin name="cordova-plugin-multidex"  source="npm" /> -->
- <!-- Core plugins -->
- <gap:plugin name="cordova-plugin-multidex"  source="npm" />
-    <!--gap:plugin name="cordova-plugin-device"  source="npm" />
-	<plugin name="cordova-plugin-device-motion"   source="npm" /-->
-	<plugin name="cordova-plugin-inappbrowser" source="npm" />
-  <!--gap:plugin name="com.appodeal.plugin" source="npm" /-->
-  <gap:plugin name="cc.fovea.cordova.purchase" source="npm">
-     <param name="BILLING_KEY" value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA05ZCllKmqgCSHbSn5zSmaftp4sGdMq29KN/2TQjV2TGIiAvXbClK3dJeS26S03kcFDcU7MzambeIR1Bf7yFdt+zBziHoXDlHOZAWGLRORBmEG4evTq0yX1R/5SD96dKOXdYPhtF28/R/4wjWBLWDUOMilOPC7fhbup7Zn4MZa55aSH4RXBy+jXGsPKBXq/PoLnrQBrBI/Qfrj2/Ne/oJmUbdaDrKyxdy45OzmrML3Nv6rvKeUWT/xVi+jvFX54lzVAGzbr47hoNCF3Sy8txR08lX8A8pYEaKf1nkE7vqvVBhJjesja2RFydppVLEjMChm4uVxAmLcyTpXLvHDz/tTwIDAQAB"/>
-  </gap:plugin>
+    <!-- Record Audio -->
+  	<!-- Fin Record Audio  <gap:plugin name="cordova-plugin-multidex"  source="npm" /> -->
+   <!-- Core plugins -->
+   <gap:plugin name="cordova-plugin-multidex"  source="npm" />
+      <!--gap:plugin name="cordova-plugin-device"  source="npm" />
+  	<plugin name="cordova-plugin-device-motion"   source="npm" /-->
+  	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <!--gap:plugin name="com.appodeal.plugin" source="npm" /-->
+    <gap:plugin name="cc.fovea.cordova.purchase" source="npm">
+       <param name="BILLING_KEY" value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA05ZCllKmqgCSHbSn5zSmaftp4sGdMq29KN/2TQjV2TGIiAvXbClK3dJeS26S03kcFDcU7MzambeIR1Bf7yFdt+zBziHoXDlHOZAWGLRORBmEG4evTq0yX1R/5SD96dKOXdYPhtF28/R/4wjWBLWDUOMilOPC7fhbup7Zn4MZa55aSH4RXBy+jXGsPKBXq/PoLnrQBrBI/Qfrj2/Ne/oJmUbdaDrKyxdy45OzmrML3Nv6rvKeUWT/xVi+jvFX54lzVAGzbr47hoNCF3Sy8txR08lX8A8pYEaKf1nkE7vqvVBhJjesja2RFydppVLEjMChm4uVxAmLcyTpXLvHDz/tTwIDAQAB"/>
+    </gap:plugin>
 
-    <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
-    <!--
-        <gap:plugin name="com.phonegap.plugins.barcodescanner" /> -->
-	<!--plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.0.7" />
-	<gap:plugin name="cordova-plugin-backbutton" source="npm"/-->
-	<plugin name="cordova-plugin-network-information" source="npm"/>
-	<plugin name="cordova-plugin-google-analytics" source="npm" />
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+      <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
+      <!--
+          <gap:plugin name="com.phonegap.plugins.barcodescanner" /> -->
+  	<!--plugin name="cordova-plugin-x-socialsharing" source="npm" spec="5.0.7" />
+  	<gap:plugin name="cordova-plugin-backbutton" source="npm"/-->
+  	<plugin name="cordova-plugin-network-information" source="npm"/>
+  	<plugin name="cordova-plugin-google-analytics" source="npm" />
+  	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+  	<!-- GeoLocation platform. -->
 	<!-- GeoLocation platform. -->
 
 	<!-- Define app icon for each platform. -->
